@@ -1,0 +1,235 @@
+[python]
+label = "Python"
+
+    [[python.questions]]
+    question     = "When was the first known use of the word 'quiz'"
+    answers      = ["1781"]
+    alternatives = ["1771", "1871", "1881"]
+
+    [[python.questions]]
+    question     = "Which built-in function can get information from the user"
+    answers      = ["input"]
+    alternatives = ["get", "print", "write"]
+
+    [[python.questions]]
+    question = "What's the purpose of the built-in zip() function"
+    answers = ["To iterate over two or more sequences at the same time"]
+    alternatives = [
+        "To combine several strings into one",
+        "To compress several files into one archive",
+        "To get information from the user",
+    ]
+
+    [[python.questions]]
+    question     = "What does dict.get(key) return if key isn't found in dict"
+    answers      = ["None"]
+    alternatives = ["key", "True", "False"]
+
+    [[python.questions]]
+    question = "How do you iterate over both the indices and elements in an iterable"
+    answers = ["enumerate(iterable)"]
+    alternatives = [
+        "enumerate(iterable, start=1)",
+        "range(iterable)",
+        "range(iterable, start=1)",
+    ]
+
+    [[python.questions]]
+    question = "What's the official name of the := operator"
+    answers = ["Assignment expression"]
+    alternatives = [
+        "Named expression",
+        "Walrus operator",
+        "Colon equals operator",
+    ]
+
+    [[python.questions]]
+    question = "What's one effect of calling random.seed(42)"
+    answers = ["The random numbers are reproducible."]
+    alternatives = [
+        "The random numbers are more random.",
+        "The computer clock is reset.",
+        "The first random number is always 42.",
+    ]
+
+    [[python.questions]]
+    question     = "Which version of Python is the first with TOML support built in"
+    answers      = ["3.11"]
+    alternatives = ["3.9", "3.10", "3.12"]
+
+    [[python.questions]]
+    question     = "How can you run a Python script named quiz.py"
+    answers      = ["python quiz.py", "python -m quiz"]
+    alternatives = ["python quiz", "python -m quiz.py"]
+    hint         = "One option uses the filename, and the other uses the module name."
+
+    [[python.questions]]
+    question     = "What's the name of the list-like data structure in TOML"
+    answers      = ["Array"]
+    alternatives = ["List", "Sequence", "Set"]
+
+    [[python.questions]]
+    question = "What's a PEP"
+    answers = ["A Python Enhancement Proposal"]
+    alternatives = [
+        "A Pretty Exciting Policy",
+        "A Preciously Evolved Python",
+        "A Potentially Epic Prize",
+    ]
+    hint = "PEPs are used to evolve Python."
+    explanation = """
+    Python Enhancement Proposals (PEPs) are design documents that provide
+    information to the Python community. PEPs are used to propose new features
+    for the Python language, to collect community input on an issue, and to
+    document design decisions made about the language.
+    """
+
+    [[python.questions]]
+    question = "How can you add a docstring to a function"
+    answers = [
+        "By writing a string literal as the first statement in the function",
+        "By assigning a string to the function's .__doc__ attribute",
+    ]
+    alternatives = [
+        "By using the built-in @docstring decorator",
+        "By returning a string from the function",
+    ]
+    hint = "They are parsed from your code and stored on the function object."
+    explanation = """
+    Docstrings document functions and other Python objects. A docstring is a
+    string literal that occurs as the first statement in a module, function,
+    class, or method definition. Such a docstring becomes the .__doc__ special
+    attribute of that object. See PEP 257 for more information.
+
+    There's no built-in @docstring decorator. Many functions naturally return
+    strings. Such a feature can therefore not be used for docstrings.
+    """
+
+    [[python.questions]]
+    question = "When was the first public version of Python released"
+    answers = ["February 1991"]
+    alternatives = ["January 1994", "October 2000", "December 2008"]
+    hint = "The first public version was labeled version 0.9.0."
+    explanation = """
+    Guido van Rossum started work on Python in December 1989. He posted
+    Python v0.9.0 to the alt.sources newsgroup in February 1991. Python
+    reached version 1.0.0 in January 1994. The next major versions,
+    Python 2.0 and Python 3.0, were released in October 2000 and December
+    2008, respectively.
+    """
+
+[capitals]
+label = "Capitals"
+
+    [[capitals.questions]]
+    question = "What's the capital of Norway"
+    answers = ["Oslo"]
+    hint = "Lars Onsager, Jens Stoltenberg, Trygve Lie, and Børge Ousland."
+    alternatives = ["Stockholm", "Copenhagen", "Helsinki", "Reykjavik"]
+    explanation = """
+    Oslo was founded as a city in the 11th century and established as a
+    trading place. It became the capital of Norway in 1299. The city was
+    destroyed by a fire in 1624 and rebuilt as Christiania, named in honor
+    of the reigning king. The city was renamed back to Oslo in 1925.
+    """
+
+    [[capitals.questions]]
+    question = "What's the state capital of Texas, USA"
+    answers = ["Austin"]
+    alternatives = ["Harrisburg", "Houston", "Galveston", "Columbia"]
+    hint = "SciPy is held there each year."
+    explanation = """
+    Austin is named in honor of Stephen F. Austin. It was purpose-built to
+    be the capital of Texas and was incorporated in December 1839. Houston,
+    Harrisburg, Columbia, and Galveston are all earlier capitals of Texas.
+    """
+
+    [[capitals.questions]]
+question = "What's the capital of Japan?"
+answers = ["Tokyo"]
+hint = "It's the most populous metropolitan area in the world."
+alternatives = ["Kyoto", "Osaka", "Nagoya", "Yokohama"]
+explanation = """
+Tokyo, formerly known as Edo, became the de facto capital of Japan in 1603 when Tokugawa Ieyasu made it his seat of power. It officially became the capital in 1868 when Emperor Meiji moved there from Kyoto. Today, it's not only Japan's political center but also a global economic powerhouse.
+"""
+
+[[capitals.questions]]
+question = "What's the capital of Brazil?"
+answers = ["Brasília"]
+hint = "This planned city was built in the 1950s to move the capital inland."
+alternatives = ["Rio de Janeiro", "São Paulo", "Salvador", "Belo Horizonte"]
+explanation = """
+Brasília was purpose-built to serve as Brazil's capital and was inaugurated on April 21, 1960. Its unique modernist architecture, designed by Oscar Niemeyer, led to its designation as a UNESCO World Heritage Site in 1987. The move from Rio de Janeiro was intended to develop Brazil's interior region.
+"""
+
+[[capitals.questions]]
+question = "What's the capital of Australia?"
+answers = ["Canberra"]
+hint = "It's located between Sydney and Melbourne."
+alternatives = ["Sydney", "Melbourne", "Brisbane", "Perth"]
+explanation = """
+Canberra was chosen as the capital in 1908 as a compromise between rivals Sydney and Melbourne. The city's design was selected through an international contest won by American architects Walter Burley Griffin and Marion Mahony Griffin. Canberra officially became Australia's capital in 1927.
+"""
+
+[[capitals.questions]]
+question = "What's the capital of Canada?"
+answers = ["Ottawa"]
+hint = "It's located in Ontario, on the border with Quebec."
+alternatives = ["Toronto", "Montreal", "Vancouver", "Quebec City"]
+explanation = """
+Ottawa was chosen as Canada's capital by Queen Victoria in 1857. The choice was strategic, being on the border between French and English Canada and away from the US border. The Parliament Hill, seat of the Canadian government, is a prominent landmark in the city.
+"""
+
+[[capitals.questions]]
+question = "What's the capital of Egypt?"
+answers = ["Cairo"]
+hint = "It's the largest city in the Arab world."
+alternatives = ["Alexandria", "Giza", "Luxor", "Aswan"]
+explanation = """
+Cairo has been Egypt's capital for over a thousand years. Founded in 969 AD by the Fatimid dynasty, it's now one of the most populous cities in Africa. The city is known for its ancient history, preserved in the famous Egyptian Museum, and its proximity to the Giza pyramid complex.
+"""
+
+[[capitals.questions]]
+question = "What's the capital of South Africa?"
+answers = ["Pretoria", "Cape Town", "Bloemfontein"]
+hint = "This country has three capital cities, each serving a different branch of government."
+alternatives = ["Johannesburg", "Durban"]
+explanation = """
+South Africa is unique in having three capital cities: Pretoria (administrative), Cape Town (legislative), and Bloemfontein (judicial). Pretoria hosts the executive branch, Cape Town is home to the Parliament, and Bloemfontein houses the Supreme Court of Appeal. This arrangement dates back to the formation of the Union of South Africa in 1910.
+"""
+
+[[capitals.questions]]
+question = "What's the capital of Italy?"
+answers = ["Rome"]
+hint = "It's often called the 'Eternal City'."
+alternatives = ["Milan", "Florence", "Venice", "Naples"]
+explanation = """
+Rome has been a major human settlement for almost three millennia and was the capital of the Roman Empire. It became the capital of unified Italy in 1871. The city is a global city with a rich history spanning over 2,500 years and is home to many iconic ancient structures like the Colosseum and Pantheon.
+"""
+
+[[capitals.questions]]
+question = "What's the capital of Russia?"
+answers = ["Moscow"]
+hint = "It's home to the Kremlin and Red Square."
+alternatives = ["St. Petersburg", "Novosibirsk", "Yekaterinburg", "Kazan"]
+explanation = """
+Moscow has been Russia's capital since 1918, except for a brief period from 1728 to 1732. It's the political, economic, cultural, and scientific center of the country. The city's iconic Red Square and the Kremlin, which serves as the official residence of the President, are symbols of Russian power and history.
+"""
+
+[[capitals.questions]]
+question = "What's the capital of Argentina?"
+answers = ["Buenos Aires"]
+hint = "It's known as the 'Paris of South America'."
+alternatives = ["Córdoba", "Rosario", "Mendoza", "La Plata"]
+explanation = """
+Buenos Aires has been Argentina's capital since 1880. It's one of the largest cities in South America and a major tourist destination known for its European-style architecture, rich cultural life, and tango heritage. The city is also a major port and the country's financial, industrial, commercial, and cultural hub.
+"""
+
+[[capitals.questions]]
+question = "What's the capital of India?"
+answers = ["New Delhi"]
+hint = "It's part of the larger metropolitan area of Delhi."
+alternatives = ["Mumbai", "Kolkata", "Chennai", "Bangalore"]
+explanation = """
+New Delhi became the capital of British India in 1911, replacing Calcutta (now Kolkata). After India gained independence in 1947, it remained the capital of the new nation. New Delhi is officially a district of Delhi and houses important government buildings including the Parliament House, Rashtrapati Bhavan (Presidential Palace), and the Supreme Court of India.
+"""
